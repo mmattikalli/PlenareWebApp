@@ -1,16 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <configuration>
 <html>
+    <head>
+        <script src="./main.js"></script>
+    </head>
     <body>
-        <div> <!-- to do for that day -->
-            <button> Add list item </button>
-            <input type="checkbox"> New item <br/>
-            <input type="checkbox"> New item <br/>
+    
+    <div id="myDIV" class="taskHeader">
+        <h4>To Do List</h4>
+        <input type="text" id="myInput" placeholder="Add To Do Item"> 
+        <span onclick="newElement()" class="addBtn">Add</span>
+        <ul id="myUL"></ul>
+    </div>
 
-        </div>
-        <div> <!-- suggestions for diet and exercise -->
+    <div> <!-- to do for that day -->
+        <button> A </button> <br/>
+        <input type="checkbox"> New item <br/>
+        <input type="checkbox"> New item <br/>
 
-        </div>
+    </div>
+    <div> <!-- suggestions for diet and exercise -->
+
+    </div>
     </body>
 
     
